@@ -1,5 +1,7 @@
-hyperband
+hyperband (Python 3 fork)
 =========
+
+__This is a Python 3 fork from the original hyperband found [here](https://github.com/zygmuntz/hyperband) and is not fully tested. Also, not all of the defs have been ported.__
 
 Code for tuning hyperparams with Hyperband, adapted from [Hyperband: A Novel Bandit-Based Approach to Hyperparameter Optimization](https://people.eecs.berkeley.edu/~kjamieson/hyperband.html). 
 
