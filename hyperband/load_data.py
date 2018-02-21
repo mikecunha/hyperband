@@ -8,7 +8,7 @@ defs files import data from here (from load_data import data)
 
 import pickle
 
-data_file = 'data/classification.pkl'
+data_file = '../data/classification.pkl'
 
 print("loading...")
 

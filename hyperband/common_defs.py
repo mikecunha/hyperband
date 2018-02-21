@@ -6,8 +6,11 @@ from math import log, sqrt
 from time import time
 from pprint import pprint
 
-from sklearn.metrics import roc_auc_score as AUC, log_loss, accuracy_score as accuracy
-from sklearn.metrics import mean_squared_error as MSE, mean_absolute_error as MAE
+try:
+    from sklearn.metrics import roc_auc_score as AUC, log_loss, accuracy_score as accuracy
+    from sklearn.metrics import mean_squared_error as MSE, mean_absolute_error as MAE
+except ImportError:
+    print("Warning: you need to pip install scikit-learn if you wish to use metrics like AUC, log los and accuracy.")
 
 try:
 	from hyperopt import hp

@@ -1,8 +1,8 @@
 import numpy as np
 
-train_file = 'data/kin8nm/train.csv'
-valid_file = 'data/kin8nm/validation.csv'
-test_file = 'data/kin8nm/test.csv'
+train_file = '../data/kin8nm/train.csv'
+valid_file = '../data/kin8nm/validation.csv'
+test_file = '../data/kin8nm/test.csv'
 
 print("loading data...")
 
